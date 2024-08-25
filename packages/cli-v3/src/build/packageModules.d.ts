@@ -1,0 +1,18 @@
+import { BuildTarget } from "@trigger.dev/core/v3";
+export declare const devRunWorker: string;
+export declare const devIndexWorker: string;
+export declare const deployRunController: string;
+export declare const deployRunWorker: string;
+export declare const deployIndexController: string;
+export declare const deployIndexWorker: string;
+export declare const telemetryEntryPoint: string;
+export declare const devEntryPoints: string[];
+export declare const deployEntryPoints: string[];
+export declare const esmShimPath: string;
+export declare const shims: string[];
+export declare function isLoaderEntryPoint(entryPoint: string): boolean;
+export declare function isRunWorkerForTarget(entryPoint: string, target: BuildTarget): boolean;
+export declare function isRunControllerForTarget(entryPoint: string, target: BuildTarget): boolean;
+export declare function isIndexWorkerForTarget(entryPoint: string, target: BuildTarget): boolean;
+export declare function isIndexControllerForTarget(entryPoint: string, target: BuildTarget): boolean;
+export declare function isConfigEntryPoint(entryPoint: string): boolean;

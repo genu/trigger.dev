@@ -13,7 +13,8 @@
     "@trigger.dev/database": "0.0.1",
     "emails": "1.0.0",
     "@trigger.dev/otlp-importer": "2.3.11",
-    "@trigger.dev/sdk": "2.3.18"
+    "@trigger.dev/sdk": "2.3.18",
+    "@trigger.dev/build": "3.0.0-beta.55"
   },
   "changesets": [
     "afraid-sheep-joke",
@@ -39,8 +40,10 @@
     "early-impalas-itch",
     "eight-pumas-float",
     "eleven-paws-join",
+    "eleven-tips-learn",
     "famous-boats-tease",
     "fast-colts-relax",
+    "fast-ladybugs-eat",
     "fast-melons-listen",
     "few-poems-vanish",
     "few-students-share",
@@ -104,6 +107,7 @@
     "rich-kangaroos-unite",
     "rotten-beers-refuse",
     "rotten-dryers-exercise",
+    "rotten-eggs-occur",
     "rude-toys-compare",
     "selfish-ducks-sort",
     "serious-hats-rest",
@@ -160,6 +164,7 @@
     "twelve-knives-notice",
     "two-pumas-wait",
     "violet-clocks-notice",
+    "warm-nails-jump",
     "warm-olives-provide",
     "warm-planes-taste",
     "yellow-roses-arrive",

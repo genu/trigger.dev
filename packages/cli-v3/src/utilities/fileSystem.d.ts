@@ -1,0 +1,12 @@
+export declare function createFile(path: string, contents: string | NodeJS.ArrayBufferView): Promise<string>;
+export declare function isDirectory(configPath: string): boolean;
+export declare function pathExists(path: string): Promise<boolean>;
+export declare function someFileExists(directory: string, filenames: string[]): Promise<boolean>;
+export declare function removeFile(path: string): Promise<void>;
+export declare function readFile(path: string): Promise<string>;
+export declare function readJSONFile(path: string): Promise<any>;
+export declare function safeFeadJSONFile(path: string): Promise<any>;
+export declare function writeJSONFile(path: string, json: any, pretty?: boolean): Promise<void>;
+export declare function readJSONFileSync(path: string): any;
+export declare function safeDeleteFileSync(path: string): void;
+export declare function createTempDir(): Promise<string>;
